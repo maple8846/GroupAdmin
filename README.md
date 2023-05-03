@@ -10,13 +10,19 @@ https://www.vultr.com/?ref=9446732
 
 
 centos系统按顺序执行如下命令安装：
+
 sudo yum update
+
 sudo yum install mariadb-server mariadb
+
 sudo systemctl start mariadb
 
 ubuntu系统使用按顺序执行如下命令安装：
+
 sudo apt update
+
 sudo apt install mariadb-server
+
 sudo systemctl start mariadb
 
 准备完毕后，将所有问下放在同一目录下。
