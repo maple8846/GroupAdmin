@@ -112,7 +112,6 @@ async def button(update: Update, context: CallbackContext) -> None:
 
     query = update.callback_query
     if query.data == 'pay':
-
         if context.chat_data.get('payment_started'):
             await query.message.reply_text('有支付正在处理，请勿重复创建支付')
             return
@@ -121,8 +120,8 @@ async def button(update: Update, context: CallbackContext) -> None:
             "price_amount": price,
             "price_currency": "usd",
             "pay_currency": "usdttrc20",
-            "ipn_callback_url": "https://nowpayments.io",
-            "order_id": query.from_user.id + '_' + datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "ipn_callback_url": "https://api.nowpayments.io",
+            "order_id": str(query.from_user.id) + '_' + datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "order_description": "Apple Macbook Pro 2019 x 1",
             "case": "success"
         })
@@ -139,7 +138,6 @@ async def button(update: Update, context: CallbackContext) -> None:
             await query.message.reply_text('处理出错，请重新输入命令\join')
             return
 
-
         payment_address = response.json()['pay_address']
         payment_amount = response.json()['pay_amount']
         payment_id = response.json()["payment_id"]
@@ -147,6 +145,8 @@ async def button(update: Update, context: CallbackContext) -> None:
 
         # 存储 payment_id 到 chat_data 字典中
         context.chat_data["payment_id"] = payment_id
+
+        context.chat_data["order_id"] = order_id
 
 
 
@@ -185,7 +185,9 @@ async def button(update: Update, context: CallbackContext) -> None:
 
                 invite_link = await context.bot.create_chat_invite_link(chat_id=chat_id, expire_date=0)
 
-                await query.message.reply_text(f"您已经成功支付，点击链接加入群组：{invite_link}。您的订单id是:" + order_id + "有疑问请使用订单id联系群主")
+                order_id = context.chat_data["order_id"]
+
+                await query.message.reply_text(f"您已经成功支付，点击链接加入群组：{invite_link}。您的订单id是:{order_id} ,有疑问请使用订单id联系群主")
                 break
             elif payment_status == 'partially_paid':
                     # Handle unpaid status
