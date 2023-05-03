@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "deft-province-315910",
+  "private_key_id": "3b247578727f7fb653e9079a08dd726dfdb139d6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCh2yHwLbzMd76E\npFwQYKks2fJVR0DkYLNuar+ESy2bAbtVVLc2kP0nm1o4WSQqwAF9eYNfNfhsG0QE\n0bRXrKjCe6zr8RFwWAclU2MYM/MmrpY7k4Ri0kjrLA3CqyPdcHipDadz90wHtDi/\nugEgMoQTENBM+doPWrIKinoMJhjFa2rS2UpHVuSY8s+Npl4+5AJD3W4i4CcfHWfG\nJQkzBnowN2bTT1aZ9jTlpNTtwD74M8QiXZWjBw/y6gVmjuBr4vbvAxQN449JrQGJ\np/8EFp9hCN3wp99eL6G85wYy+4+why0H6ASHWPMedByb6YEXBIQrIqOtNS/ZD/Wl\nWU2V2IhVAgMBAAECggEAC3lw7WlvVXHWGRUGLNK5c5ig3YBUvqFctG16FdDMPc1b\nNe2wo7xBd4XD2TOimirsqslK8bHuYmBIIReqc2kQuWGSAlO1At6kD7aavhbCvGGL\nUikUrSUkw71RXWq2EHGz2szrwToifaJTv+3ZvL9auHehmMTBZi4YafcOt3Pvn3aE\n5zpkNffETIkkgdCymTq+Bru4pWbEiN/8SvmmL41DnnAyUJibuOrjHexXOeEXtyUl\nK4tNU/u3DitLeB4V0uHUZlz7nIzvdrakJFC0Ounpy4g10Aw26jnGWk4TiyK0euot\nej5x01tFaJTwOcntooMGJuRDpTPvHRaYxCLC3gRX8QKBgQDRuxUHYczSbLWnzmn5\nVrjUQlWFnjU6RRVwS41kEuB2yBV9gAjPVEjDDJPRuxXArdPu2p2Qu4YawsnFBoI4\nHKzbh4fUh6KCODnp5YamWYRnbKBUleGqkuMD72NS6T55CVrLtqnAdNuubdvmfZvE\naRn4YqJwsos4Ai7py8ebpqZCUQKBgQDFkDxyhSbppyXLhoIYloc14KGyfFowSCb8\n8MflDJAp37gdRMUgYDKXpwmvZGdk+1rHV+Cp80nIMPl57XTZvG81GjgWRohi+ZOE\ngMvswC5PefBRByrboa8ArPfKfe2BiBVlQbpGMgKu8eDbmWcZ4UikvTIyvgDijkJd\npaUXFA+AxQKBgBICut+Tan93jnIGq9sZs22m9Kkw2OlUHW8zTcUWSehpbk8Eu7zy\nQ/1cCyWrp0aQpu6QH4/aSr3plGIzGOOwsrd3gBakPzRnl7GaYGHQtiobjfk1ldeM\nHaqs2B66oP7L6twrp5A7eNIV5Rh6GPJZBD3sWn7LFmGM7nJtaYrYWNbBAoGBAI3v\nrj3og6hiObkbDeR0YPfIRuNgi7scW0ZmBnb8q6Yp4LDGc4lrE234x/CGhfH606Fb\n9UCkVWHKLbH3c3fq9UqFZ745NktFW0Ja9idFewAGby0HpTbd1kj5+5wzFKt3BUgW\nDKnZzCu8AvxCHdxuCi6w7pud/izGX8+/7ffCpdCxAoGBALyNs0EUZKFrY2VlHbUI\nTovEtbfyck6GtXwMFKfyGNqHjKTU9v8Tf8C+DpRG6qsYf0gGMx1TScMQEa3cnPCd\nFHOSkINNCsoZ7lcNnmMzlaBk+uhCev03BngZEA+9+XnRKK4DkMj3zc++KkC6gUDY\nSxFSxJsdeG0NKSSpvi/DoEPS\n-----END PRIVATE KEY-----\n",
+  "client_email": "groupadmin@deft-province-315910.iam.gserviceaccount.com",
+  "client_id": "108317326950936460534",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/groupadmin%40deft-province-315910.iam.gserviceaccount.com"
+}

@@ -1,0 +1,7 @@
+bottoken:XXXXXXX:XXXX
+chat_id:XXXXX
+nowpaymentsapi:XXXXX
+password: 123456
+user: groupadmin
+price:XX
+
