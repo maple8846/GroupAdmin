@@ -17,7 +17,7 @@ sudo yum install mariadb-server mariadb
 
 sudo systemctl start mariadb
 
-ubuntu系统使用按顺序执行如下命令安装：
+ubuntu/debian系统使用按顺序执行如下命令安装：
 
 sudo apt update
 
