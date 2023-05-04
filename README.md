@@ -53,8 +53,21 @@ pip3 install -r requirements.txt
 
 至此，机器人已经成功配置成功。需要使用机器人还需进行购买后使用
 
+购买链接在这里：
+
+https://t.me/groupmanageradminbot
+
+首先，输入/pay 命令，机器人会返回一个TRC20付款地址，付款成功后输入/payfinished命令。
+
+然后输入/token + 电报机器人的bot
+
 
 最终，执行如下命令启动群管理机器人
 chmod +x start.sh
 
 ./start.sh  
+
+这样您机器人就已经配置成功。
+
+用户在可以和您的机器人人聊天使用/join命令加入社群，机器人会返回一个付款地址，付款成功后，机器人会发送一个一次性的入群链接
+
