@@ -56,4 +56,5 @@ pip3 install -r requirements.txt
 
 最终，执行如下命令启动群管理机器人
 chmod +x start.sh
+
 ./start.sh  
